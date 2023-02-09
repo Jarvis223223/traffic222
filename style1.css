@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: rgba(52, 78, 76, 0.912);
+}
+
+.main,
+.box {
+  max-width: 500px;
+  padding: 20px;
+  margin: 100px auto;
+}
+
+.container,
+.box-container {
+  max-width: 500px;
+  height: 100px;
+  border-radius: 9px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 10px;
+}
+
+.redlight,
+.yellowlight,
+.greenlight {
+  font-size: 2.5rem;
+  width: 100px;
+  color: rgba(60, 58, 58, 0.478);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  opacity: 0.8;
+  user-select: none;
+}
+
+.redlight,
+.redTrack {
+  background-color: rgba(89, 89, 105, 0.526);
+}
+
+.yellowlight,
+.yellowTrack {
+  background-color: rgba(89, 89, 105, 0.526);
+}
+
+.greenlight,
+.greenTrack {
+  background-color: rgba(89, 89, 105, 0.526);
+}
+
+.start-btn {
+  margin-top: 20px;
+}
+
+.end-btn {
+  margin-top: 20px;
+  float: right;
+}
+
+/* *************************************** */
+.twoStart-btn {
+  margin-top: 20px;
+}
+
+.twoEnd-btn {
+  float: right;
+  margin-top: 20px;
+}
+
+.redTrack,
+.yellowTrack,
+.greenTrack {
+  width: 100px;
+  color: rgba(60, 58, 58, 0.478);
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.number {
+  color: #ffffff8b;
+  font-size: 3rem;
+  line-height: 60px;
+  background-color: rgb(26, 24, 24);
+  padding: 20px;
+  border-radius: 8px;
+}
