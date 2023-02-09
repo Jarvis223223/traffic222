@@ -141,3 +141,6 @@ const showSecGreen = () => {
   const numText = greened < 10 ? "0" + greened.toString() : greened;
   numbers.textContent = numText;
 };
+
+console.log("Hello world");
+console.log("hello github");
